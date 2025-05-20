@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{CDA3D289-5F22-4618-963C-26F6A0B5D39E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicaNegocio", "LogicaNegocio\LogicaNegocio.csproj", "{80324BC3-53FB-4AB4-BD99-97C01AE1FB7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repositorio\Repository.csproj", "{0D605583-FB57-49D0-96D1-C4EB93D10DBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDA3D289-5F22-4618-963C-26F6A0B5D39E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDA3D289-5F22-4618-963C-26F6A0B5D39E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDA3D289-5F22-4618-963C-26F6A0B5D39E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDA3D289-5F22-4618-963C-26F6A0B5D39E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80324BC3-53FB-4AB4-BD99-97C01AE1FB7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80324BC3-53FB-4AB4-BD99-97C01AE1FB7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80324BC3-53FB-4AB4-BD99-97C01AE1FB7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80324BC3-53FB-4AB4-BD99-97C01AE1FB7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D605583-FB57-49D0-96D1-C4EB93D10DBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D605583-FB57-49D0-96D1-C4EB93D10DBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D605583-FB57-49D0-96D1-C4EB93D10DBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D605583-FB57-49D0-96D1-C4EB93D10DBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {553D0078-5954-42DE-A873-836CBA4709DC}
+	EndGlobalSection
+EndGlobal

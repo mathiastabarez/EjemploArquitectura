@@ -1,5 +1,6 @@
 using LogicaNegocio;
 using LogicaNegocio.Repository;
+using LogicaNegocio.SubSystems;
 using Repository;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,6 +18,7 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 
 builder.Services.AddScoped<IUserRepository>(provider => new UserRepository(connectionString));
 
+builder.Services.AddScoped<UserSubSystem>();
 builder.Services.AddScoped<Fachada>();
 
 var app = builder.Build();
